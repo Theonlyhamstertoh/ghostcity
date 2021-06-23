@@ -1,9 +1,7 @@
 import "./sass/App.scss";
-import { Canvas, extend, useFrame, useThree, useLoader } from "@react-three/fiber";
-import { OrbitControls, useTexture } from "@react-three/drei";
-import * as THREE from "three";
-import { Controls, useControl, withControls } from "react-three-gui";
-import { Suspense, useRef, useState, useEffect } from "react";
+import { Canvas } from "@react-three/fiber";
+import { OrbitControls } from "@react-three/drei";
+import { Suspense } from "react";
 import { v4 as uuid } from "uuid";
 
 function Scene() {
